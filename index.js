@@ -4,7 +4,7 @@ const asyncHandler = require('express-async-handler');
 // Create and configure the app
 const app = express();
 
-// Trust GCPs front end for hostname/port forwarding
+// Trust GCPs front end to for hostname/port forwarding
 app.set("trust proxy", true);
 app.use(express.json());
 

@@ -1,0 +1,22 @@
+{
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.addons.execute",
+      "https://www.googleapis.com/auth/calendar.addons.execute"
+    ],
+    "addOns": {
+      "common": {
+        "name": "Todo Codelab",
+        "logoUrl": "https://raw.githubusercontent.com/webdog/octicons-png/main/black/check.png",
+        "homepageTrigger": {
+          "runFunction": "https://todo-add-on-4f3fr2giyq-as.a.run.app/"
+        }
+      },
+      "gmail": {},
+      "drive": {},
+      "calendar": {},
+      "docs": {},
+      "sheets": {},
+      "slides": {}
+    }
+  }
+  
