@@ -1,0 +1,5 @@
+indexes:
+- kind: Task
+  ancestor: yes
+  properties:
+  - name: created
