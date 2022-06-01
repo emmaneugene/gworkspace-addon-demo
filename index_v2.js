@@ -1,3 +1,8 @@
+/**
+ * Version 2: Displays user email and sub value
+ * For documentation, visit https://developers.google.com/workspace/add-ons/reference/rpc/google.apps.card.v1
+ */
+
 const express = require('express');
 const asyncHandler = require('express-async-handler');
 const { OAuth2Client } = require('google-auth-library');
