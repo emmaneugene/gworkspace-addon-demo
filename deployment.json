@@ -2,8 +2,9 @@
     "oauthScopes": [
       "https://www.googleapis.com/auth/gmail.addons.execute",
       "https://www.googleapis.com/auth/calendar.addons.execute",
+      "https://www.googleapis.com/auth/drive.file",
       "openid",
-      "email" 
+      "email"
     ],
     "addOns": {
       "common": {
